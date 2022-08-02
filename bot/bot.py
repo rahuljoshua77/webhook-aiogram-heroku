@@ -8,7 +8,7 @@ from bot.settings import (BOT_TOKEN, HEROKU_APP_NAME,
                           WEBHOOK_URL, WEBHOOK_PATH,
                           WEBAPP_HOST, WEBAPP_PORT)
 
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token="1614394875:AAH2iQCvs6_e3ob_t8CYuVEkuWtff2vvuWY")
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
 import os
